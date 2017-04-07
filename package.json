@@ -1,0 +1,27 @@
+{
+  "name": "jonanderbesga.com",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack -p"
+  },
+  "author": "Jon Ander Besga",
+  "license": "",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router-dom": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
